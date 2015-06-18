@@ -4,9 +4,12 @@ robot
 /server接受robot的连接和数据、并给予简单的反馈，仅仅是用于演示robot程序而已
 这是写出来给另一个公司的同学用的，所以足够简洁和业务逻辑无关
 
-我在自己工作的项目中写的机器人比这个好用，而且用C++扩展了封包拆包、加密、地图解析、寻路等逻辑，还提供了一些数据转换、模拟GMT的工具。
-因使用技术跟公司技术方向不符而不太受重视，不过个人感觉机器人对于服务端的稳定性测试、压力测试、逻辑测试（主要是多人PVP、GVG）、分线控制还是提供了很有力的辅助的。
-等以后对项目没影响以后再把代码放到github上来。
+我在自己工作的项目中写的机器人比这个好用:
+  用C++扩展了封包拆包、加密、地图解析、寻路等逻辑
+  提供了一些数据转换、模拟GMT的工具
+  
+因使用技术跟公司技术方向不符而不太受重视，不过个人感觉机器人对于服务端的稳定性测试、压力测试、逻辑测试（主要是多人PVP、GVG）、分线控制还是提供了很有力的辅助的。等以后对项目没影响以后再把代码放到github上来。
+
 [root@test-22 kl-robot]# python main.py -h
 usage: main.py [-h] [-H HOST] [-P PORT]
                [-t {all,chat,move,arena,duobao,arenapvp,yingling,shengjian,xieshen,guild,room,gvg,attack,skill,solo,equip,dragon,heroseat}]
