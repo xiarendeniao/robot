@@ -34,6 +34,7 @@ optional arguments:
                         指定账号登陆,设置该参数则suffix失效
   --passWord PASSWORD   指定密码登陆
   --version VERSION     制定版本号
+  
   -c CHARNAME, --charName CHARNAME
                         指定角色登陆
   --tollId TOLLID       关卡ID
