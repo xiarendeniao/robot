@@ -1,3 +1,0 @@
-接受robot连接，按照robot的包格式解包
-
-支持PING/C_TEST两个协议，分别返回PONG和G_TEST
