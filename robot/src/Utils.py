@@ -8,7 +8,6 @@ from Opcodes import *
 #config
 class Config(object):
     ROBOT_SUFFIX_SET = set([1,2,3,4,5,6,7])
-    SEQ_CHECK = True
     ROBUST_TEST = False #是否做健壮性测试，是则会随机的断线或强制跳出地图或者切换角色
     MULTI_CHAR = 4 #创建多个角色？0，否 非零，角色个数
 

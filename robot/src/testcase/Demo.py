@@ -8,11 +8,6 @@ from ..Utils import *
 from ..Opcodes import *
 import struct
 
-ChatType = (1,2,3,4,5,50)
-
-def GenerateRandStr(size=20, chars=string.ascii_uppercase + string.ascii_lowercase + string.digits):
-    return ''.join(random.choice(chars) for _ in range(size))
-
 class Robot(object):
     def __init__(self):
         pass
